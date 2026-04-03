@@ -12,6 +12,6 @@
     </nameField>
     <pluralLabel>AgriEdge OrderItems</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

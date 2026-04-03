@@ -20,6 +20,7 @@ AgriEdge Or-Mange Ltd is modernizing its agriculture order management process wi
 - Apex trigger logic to recalculate order totals and update inventory
 - Apex tests for core OMS behaviors
 - A permission set for AgriEdge OMS users
+- Project report PDF in `docs/AgriEdge_OMS_Report.pdf`
 
 ## Salesforce Components
 
@@ -35,6 +36,8 @@ AgriEdge Or-Mange Ltd is modernizing its agriculture order management process wi
 
 ```text
 Salesforce-Developer---NM-Engg-AgriEdge-OMS-/
+|-- docs/
+|   `-- AgriEdge_OMS_Report.pdf
 |-- force-app/main/default/
 |   |-- applications/
 |   |-- classes/
@@ -64,6 +67,7 @@ sf apex run test --target-org AgriEdgeDev --test-level RunLocalTests
 
 - The original brief mentions Process Builder. Salesforce now recommends Flow, so the automation here is implemented as a record-triggered Flow.
 - The shipment lookup is modeled against `AgriEdge_Order__c` so the custom OMS objects stay consistent.
+- The repository has been cleaned to keep only project-relevant Salesforce metadata and documentation.
 
 ## Team Context
 

@@ -12,20 +12,30 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>AgriEdge_Order</members>
-        <members>AgriEdge_OrderItem</members>
-        <members>AgriEdge_Inventory</members>
-        <members>AgriEdge_Shipment</members>
+        <members>AgriEdge_Order__c</members>
+        <members>AgriEdge_OrderItem__c</members>
+        <members>AgriEdge_Inventory__c</members>
+        <members>AgriEdge_Shipment__c</members>
         <name>CustomTab</name>
     </types>
     <types>
+        <members>AgriEdgeOrderShipmentHelper</members>
+        <members>AgriEdgeOrderTests</members>
+        <members>AgriEdgeOrderTriggerHelper</members>
         <members>AgriEdgeOrderItemTriggerHandler</members>
         <members>AgriEdgeOrderManagementService</members>
         <members>AgriEdgeOrderManagementServiceTest</members>
+        <members>OrderEmailSender</members>
+        <members>OrderStatusUpdater</members>
+        <members>OrderTaskCreator</members>
+        <members>OrderTotalUpdater</members>
         <name>ApexClass</name>
     </types>
     <types>
+        <members>AgriEdgeOrderTrigger</members>
         <members>AgriEdgeOrderItemTrigger</members>
+        <members>OrderItemTrigger</members>
+        <members>OrderPaymentStatusTriggers</members>
         <name>ApexTrigger</name>
     </types>
     <types>
@@ -35,6 +45,12 @@
     <types>
         <members>AgriEdge_OMS_User</members>
         <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Platform 1</members>
+        <members>Platform 2</members>
+        <members>Platform 3</members>
+        <name>Profile</name>
     </types>
     <version>63.0</version>
 </Package>

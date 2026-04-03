@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Status_Change_Restriction</fullName>
     <active>true</active>
     <description>Requires tracking number before shipment is marked delivered when the related order is delivered.</description>
     <errorConditionFormula>AND( ISPICKVAL( Order__r.Order_Status__c , "Delivered" ), ISBLANK( Tracking_Number__c ) )</errorConditionFormula>

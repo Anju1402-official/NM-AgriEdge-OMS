@@ -57,11 +57,9 @@ private class AgriEdgeOrderManagementServiceTest {
         System.assertEquals(95, updatedInventory.Stock_Quantity__c);
         System.assertEquals('Sufficient', updatedInventory.Stock_Status__c);
 
-        Test.startTest();
         item.Quantity__c = 8;
         update item;
         delete item;
-        Test.stopTest();
 
         insertedOrder = [
             SELECT Total_Amount__c

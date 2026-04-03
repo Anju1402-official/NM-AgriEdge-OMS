@@ -5,6 +5,5 @@
     <referenceTo>Product2</referenceTo>
     <relationshipLabel>Inventory Records</relationshipLabel>
     <relationshipName>InventoryRecords</relationshipName>
-    <required>true</required>
     <type>Lookup</type>
 </CustomField>
