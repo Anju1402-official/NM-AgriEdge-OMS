@@ -20,6 +20,7 @@ AgriEdge Or-Mange Ltd is modernizing its agriculture order management process wi
 - Apex trigger logic to recalculate order totals and update inventory
 - Apex tests for core OMS behaviors
 - A permission set for AgriEdge OMS users
+- Full project documentation in `docs/AgriEdge_OMS_Project_Documentation.md`
 - Project report PDF in `docs/AgriEdge_OMS_Report.pdf`
 
 ## Salesforce Components
@@ -37,6 +38,7 @@ AgriEdge Or-Mange Ltd is modernizing its agriculture order management process wi
 ```text
 Salesforce-Developer---NM-Engg-AgriEdge-OMS-/
 |-- docs/
+|   |-- AgriEdge_OMS_Project_Documentation.md
 |   `-- AgriEdge_OMS_Report.pdf
 |-- force-app/main/default/
 |   |-- applications/
